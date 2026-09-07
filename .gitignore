@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / PyInstaller
+build/
+dist/
+*.manifest
+
+# Logs
+*.log
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Python packaging
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local converter files
+*.binoma
+*.bnma
+*.fbx
+*.glb
+
+# Generated/local files
+output/
+outputs/
+temp/
+tmp/
+
+# PyInstaller local files
+*.spec.bak
